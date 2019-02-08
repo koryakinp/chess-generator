@@ -1,0 +1,12 @@
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.deps.json
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.runtimeconfig.json
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.runtimeconfig.dev.json
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.dll
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.csproj.CoreCompileInputs.cache
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.AssemblyInfoInputs.cache
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.AssemblyInfo.cs
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.csprojAssemblyReference.cache
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.pdb
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.dll
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\obj\Debug\netcoreapp2.1\ChessGenerator.pdb
+C:\Users\pavelkoryakin\Documents\Visual Studio 2017\Projects\ChessGenerator\bin\Debug\netcoreapp2.1\ChessGenerator.dll.config

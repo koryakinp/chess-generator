@@ -1,0 +1,1668 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="boards\1.png" />
+    <None Remove="boards\10.png" />
+    <None Remove="boards\11.png" />
+    <None Remove="boards\12.png" />
+    <None Remove="boards\13.png" />
+    <None Remove="boards\14.png" />
+    <None Remove="boards\15.png" />
+    <None Remove="boards\16.png" />
+    <None Remove="boards\17.png" />
+    <None Remove="boards\18.png" />
+    <None Remove="boards\19.png" />
+    <None Remove="boards\2.png" />
+    <None Remove="boards\20.png" />
+    <None Remove="boards\21.png" />
+    <None Remove="boards\22.png" />
+    <None Remove="boards\23.png" />
+    <None Remove="boards\24.png" />
+    <None Remove="boards\25.png" />
+    <None Remove="boards\26.png" />
+    <None Remove="boards\27.png" />
+    <None Remove="boards\28.png" />
+    <None Remove="boards\3.png" />
+    <None Remove="boards\4.png" />
+    <None Remove="boards\5.png" />
+    <None Remove="boards\6.png" />
+    <None Remove="boards\7.png" />
+    <None Remove="boards\8.png" />
+    <None Remove="boards\9.png" />
+    <None Remove="pieces\10\b_b.png" />
+    <None Remove="pieces\10\b_w.png" />
+    <None Remove="pieces\10\k_b.png" />
+    <None Remove="pieces\10\k_w.png" />
+    <None Remove="pieces\10\n_b.png" />
+    <None Remove="pieces\10\n_w.png" />
+    <None Remove="pieces\10\p_b.png" />
+    <None Remove="pieces\10\p_w.png" />
+    <None Remove="pieces\10\q_b.png" />
+    <None Remove="pieces\10\q_w.png" />
+    <None Remove="pieces\10\r_b.png" />
+    <None Remove="pieces\10\r_w.png" />
+    <None Remove="pieces\11\b_b.png" />
+    <None Remove="pieces\11\b_w.png" />
+    <None Remove="pieces\11\k_b.png" />
+    <None Remove="pieces\11\k_w.png" />
+    <None Remove="pieces\11\n_b.png" />
+    <None Remove="pieces\11\n_w.png" />
+    <None Remove="pieces\11\p_b.png" />
+    <None Remove="pieces\11\p_w.png" />
+    <None Remove="pieces\11\q_b.png" />
+    <None Remove="pieces\11\q_w.png" />
+    <None Remove="pieces\11\r_b.png" />
+    <None Remove="pieces\11\r_w.png" />
+    <None Remove="pieces\12\b_b.png" />
+    <None Remove="pieces\12\b_w.png" />
+    <None Remove="pieces\12\k_b.png" />
+    <None Remove="pieces\12\k_w.png" />
+    <None Remove="pieces\12\n_b.png" />
+    <None Remove="pieces\12\n_w.png" />
+    <None Remove="pieces\12\p_b.png" />
+    <None Remove="pieces\12\p_w.png" />
+    <None Remove="pieces\12\q_b.png" />
+    <None Remove="pieces\12\q_w.png" />
+    <None Remove="pieces\12\r_b.png" />
+    <None Remove="pieces\12\r_w.png" />
+    <None Remove="pieces\13\b_b.png" />
+    <None Remove="pieces\13\b_w.png" />
+    <None Remove="pieces\13\k_b.png" />
+    <None Remove="pieces\13\k_w.png" />
+    <None Remove="pieces\13\n_b.png" />
+    <None Remove="pieces\13\n_w.png" />
+    <None Remove="pieces\13\p_b.png" />
+    <None Remove="pieces\13\p_w.png" />
+    <None Remove="pieces\13\q_b.png" />
+    <None Remove="pieces\13\q_w.png" />
+    <None Remove="pieces\13\r_b.png" />
+    <None Remove="pieces\13\r_w.png" />
+    <None Remove="pieces\14\b_b.png" />
+    <None Remove="pieces\14\b_w.png" />
+    <None Remove="pieces\14\k_b.png" />
+    <None Remove="pieces\14\k_w.png" />
+    <None Remove="pieces\14\n_b.png" />
+    <None Remove="pieces\14\n_w.png" />
+    <None Remove="pieces\14\p_b.png" />
+    <None Remove="pieces\14\p_w.png" />
+    <None Remove="pieces\14\q_b.png" />
+    <None Remove="pieces\14\q_w.png" />
+    <None Remove="pieces\14\r_b.png" />
+    <None Remove="pieces\14\r_w.png" />
+    <None Remove="pieces\15\b_b.png" />
+    <None Remove="pieces\15\b_w.png" />
+    <None Remove="pieces\15\k_b.png" />
+    <None Remove="pieces\15\k_w.png" />
+    <None Remove="pieces\15\n_b.png" />
+    <None Remove="pieces\15\n_w.png" />
+    <None Remove="pieces\15\p_b.png" />
+    <None Remove="pieces\15\p_w.png" />
+    <None Remove="pieces\15\q_b.png" />
+    <None Remove="pieces\15\q_w.png" />
+    <None Remove="pieces\15\r_b.png" />
+    <None Remove="pieces\15\r_w.png" />
+    <None Remove="pieces\16\b_b.png" />
+    <None Remove="pieces\16\b_w.png" />
+    <None Remove="pieces\16\k_b.png" />
+    <None Remove="pieces\16\k_w.png" />
+    <None Remove="pieces\16\n_b.png" />
+    <None Remove="pieces\16\n_w.png" />
+    <None Remove="pieces\16\p_b.png" />
+    <None Remove="pieces\16\p_w.png" />
+    <None Remove="pieces\16\q_b.png" />
+    <None Remove="pieces\16\q_w.png" />
+    <None Remove="pieces\16\r_b.png" />
+    <None Remove="pieces\16\r_w.png" />
+    <None Remove="pieces\17\b_b.png" />
+    <None Remove="pieces\17\b_w.png" />
+    <None Remove="pieces\17\k_b.png" />
+    <None Remove="pieces\17\k_w.png" />
+    <None Remove="pieces\17\n_b.png" />
+    <None Remove="pieces\17\n_w.png" />
+    <None Remove="pieces\17\p_b.png" />
+    <None Remove="pieces\17\p_w.png" />
+    <None Remove="pieces\17\q_b.png" />
+    <None Remove="pieces\17\q_w.png" />
+    <None Remove="pieces\17\r_b.png" />
+    <None Remove="pieces\17\r_w.png" />
+    <None Remove="pieces\18\b_b.png" />
+    <None Remove="pieces\18\b_w.png" />
+    <None Remove="pieces\18\k_b.png" />
+    <None Remove="pieces\18\k_w.png" />
+    <None Remove="pieces\18\n_b.png" />
+    <None Remove="pieces\18\n_w.png" />
+    <None Remove="pieces\18\p_b.png" />
+    <None Remove="pieces\18\p_w.png" />
+    <None Remove="pieces\18\q_b.png" />
+    <None Remove="pieces\18\q_w.png" />
+    <None Remove="pieces\18\r_b.png" />
+    <None Remove="pieces\18\r_w.png" />
+    <None Remove="pieces\19\b_b.png" />
+    <None Remove="pieces\19\b_w.png" />
+    <None Remove="pieces\19\k_b.png" />
+    <None Remove="pieces\19\k_w.png" />
+    <None Remove="pieces\19\n_b.png" />
+    <None Remove="pieces\19\n_w.png" />
+    <None Remove="pieces\19\p_b.png" />
+    <None Remove="pieces\19\p_w.png" />
+    <None Remove="pieces\19\q_b.png" />
+    <None Remove="pieces\19\q_w.png" />
+    <None Remove="pieces\19\r_b.png" />
+    <None Remove="pieces\19\r_w.png" />
+    <None Remove="pieces\1\b_b.png" />
+    <None Remove="pieces\1\b_w.png" />
+    <None Remove="pieces\1\k_b.png" />
+    <None Remove="pieces\1\k_w.png" />
+    <None Remove="pieces\1\n_b.png" />
+    <None Remove="pieces\1\n_w.png" />
+    <None Remove="pieces\1\p_b.png" />
+    <None Remove="pieces\1\p_w.png" />
+    <None Remove="pieces\1\q_b.png" />
+    <None Remove="pieces\1\q_w.png" />
+    <None Remove="pieces\1\r_b.png" />
+    <None Remove="pieces\1\r_w.png" />
+    <None Remove="pieces\20\b_b.png" />
+    <None Remove="pieces\20\b_w.png" />
+    <None Remove="pieces\20\k_b.png" />
+    <None Remove="pieces\20\k_w.png" />
+    <None Remove="pieces\20\n_b.png" />
+    <None Remove="pieces\20\n_w.png" />
+    <None Remove="pieces\20\p_b.png" />
+    <None Remove="pieces\20\p_w.png" />
+    <None Remove="pieces\20\q_b.png" />
+    <None Remove="pieces\20\q_w.png" />
+    <None Remove="pieces\20\r_b.png" />
+    <None Remove="pieces\20\r_w.png" />
+    <None Remove="pieces\21\b_b.png" />
+    <None Remove="pieces\21\b_w.png" />
+    <None Remove="pieces\21\k_b.png" />
+    <None Remove="pieces\21\k_w.png" />
+    <None Remove="pieces\21\n_b.png" />
+    <None Remove="pieces\21\n_w.png" />
+    <None Remove="pieces\21\p_b.png" />
+    <None Remove="pieces\21\p_w.png" />
+    <None Remove="pieces\21\q_b.png" />
+    <None Remove="pieces\21\q_w.png" />
+    <None Remove="pieces\21\r_b.png" />
+    <None Remove="pieces\21\r_w.png" />
+    <None Remove="pieces\22\b_b.png" />
+    <None Remove="pieces\22\b_w.png" />
+    <None Remove="pieces\22\k_b.png" />
+    <None Remove="pieces\22\k_w.png" />
+    <None Remove="pieces\22\n_b.png" />
+    <None Remove="pieces\22\n_w.png" />
+    <None Remove="pieces\22\p_b.png" />
+    <None Remove="pieces\22\p_w.png" />
+    <None Remove="pieces\22\q_b.png" />
+    <None Remove="pieces\22\q_w.png" />
+    <None Remove="pieces\22\r_b.png" />
+    <None Remove="pieces\22\r_w.png" />
+    <None Remove="pieces\23\b_b.png" />
+    <None Remove="pieces\23\b_w.png" />
+    <None Remove="pieces\23\k_b.png" />
+    <None Remove="pieces\23\k_w.png" />
+    <None Remove="pieces\23\n_b.png" />
+    <None Remove="pieces\23\n_w.png" />
+    <None Remove="pieces\23\p_b.png" />
+    <None Remove="pieces\23\p_w.png" />
+    <None Remove="pieces\23\q_b.png" />
+    <None Remove="pieces\23\q_w.png" />
+    <None Remove="pieces\23\r_b.png" />
+    <None Remove="pieces\23\r_w.png" />
+    <None Remove="pieces\24\b_b.png" />
+    <None Remove="pieces\24\b_w.png" />
+    <None Remove="pieces\24\k_b.png" />
+    <None Remove="pieces\24\k_w.png" />
+    <None Remove="pieces\24\n_b.png" />
+    <None Remove="pieces\24\n_w.png" />
+    <None Remove="pieces\24\p_b.png" />
+    <None Remove="pieces\24\p_w.png" />
+    <None Remove="pieces\24\q_b.png" />
+    <None Remove="pieces\24\q_w.png" />
+    <None Remove="pieces\24\r_b.png" />
+    <None Remove="pieces\24\r_w.png" />
+    <None Remove="pieces\25\b_b.png" />
+    <None Remove="pieces\25\b_w.png" />
+    <None Remove="pieces\25\k_b.png" />
+    <None Remove="pieces\25\k_w.png" />
+    <None Remove="pieces\25\n_b.png" />
+    <None Remove="pieces\25\n_w.png" />
+    <None Remove="pieces\25\p_b.png" />
+    <None Remove="pieces\25\p_w.png" />
+    <None Remove="pieces\25\q_b.png" />
+    <None Remove="pieces\25\q_w.png" />
+    <None Remove="pieces\25\r_b.png" />
+    <None Remove="pieces\25\r_w.png" />
+    <None Remove="pieces\26\b_b.png" />
+    <None Remove="pieces\26\b_w.png" />
+    <None Remove="pieces\26\k_b.png" />
+    <None Remove="pieces\26\k_w.png" />
+    <None Remove="pieces\26\n_b.png" />
+    <None Remove="pieces\26\n_w.png" />
+    <None Remove="pieces\26\p_b.png" />
+    <None Remove="pieces\26\p_w.png" />
+    <None Remove="pieces\26\q_b.png" />
+    <None Remove="pieces\26\q_w.png" />
+    <None Remove="pieces\26\r_b.png" />
+    <None Remove="pieces\26\r_w.png" />
+    <None Remove="pieces\27\b_b.png" />
+    <None Remove="pieces\27\b_w.png" />
+    <None Remove="pieces\27\k_b.png" />
+    <None Remove="pieces\27\k_w.png" />
+    <None Remove="pieces\27\n_b.png" />
+    <None Remove="pieces\27\n_w.png" />
+    <None Remove="pieces\27\p_b.png" />
+    <None Remove="pieces\27\p_w.png" />
+    <None Remove="pieces\27\q_b.png" />
+    <None Remove="pieces\27\q_w.png" />
+    <None Remove="pieces\27\r_b.png" />
+    <None Remove="pieces\27\r_w.png" />
+    <None Remove="pieces\28\b_b.png" />
+    <None Remove="pieces\28\b_w.png" />
+    <None Remove="pieces\28\k_b.png" />
+    <None Remove="pieces\28\k_w.png" />
+    <None Remove="pieces\28\n_b.png" />
+    <None Remove="pieces\28\n_w.png" />
+    <None Remove="pieces\28\p_b.png" />
+    <None Remove="pieces\28\p_w.png" />
+    <None Remove="pieces\28\q_b.png" />
+    <None Remove="pieces\28\q_w.png" />
+    <None Remove="pieces\28\r_b.png" />
+    <None Remove="pieces\28\r_w.png" />
+    <None Remove="pieces\29\b_b.png" />
+    <None Remove="pieces\29\b_w.png" />
+    <None Remove="pieces\29\k_b.png" />
+    <None Remove="pieces\29\k_w.png" />
+    <None Remove="pieces\29\n_b.png" />
+    <None Remove="pieces\29\n_w.png" />
+    <None Remove="pieces\29\p_b.png" />
+    <None Remove="pieces\29\p_w.png" />
+    <None Remove="pieces\29\q_b.png" />
+    <None Remove="pieces\29\q_w.png" />
+    <None Remove="pieces\29\r_b.png" />
+    <None Remove="pieces\29\r_w.png" />
+    <None Remove="pieces\2\b_b.png" />
+    <None Remove="pieces\2\b_w.png" />
+    <None Remove="pieces\2\k_b.png" />
+    <None Remove="pieces\2\k_w.png" />
+    <None Remove="pieces\2\n_b.png" />
+    <None Remove="pieces\2\n_w.png" />
+    <None Remove="pieces\2\p_b.png" />
+    <None Remove="pieces\2\p_w.png" />
+    <None Remove="pieces\2\q_b.png" />
+    <None Remove="pieces\2\q_w.png" />
+    <None Remove="pieces\2\r_b.png" />
+    <None Remove="pieces\2\r_w.png" />
+    <None Remove="pieces\30\b_b.png" />
+    <None Remove="pieces\30\b_w.png" />
+    <None Remove="pieces\30\k_b.png" />
+    <None Remove="pieces\30\k_w.png" />
+    <None Remove="pieces\30\n_b.png" />
+    <None Remove="pieces\30\n_w.png" />
+    <None Remove="pieces\30\p_b.png" />
+    <None Remove="pieces\30\p_w.png" />
+    <None Remove="pieces\30\q_b.png" />
+    <None Remove="pieces\30\q_w.png" />
+    <None Remove="pieces\30\r_b.png" />
+    <None Remove="pieces\30\r_w.png" />
+    <None Remove="pieces\31\b_b.png" />
+    <None Remove="pieces\31\b_w.png" />
+    <None Remove="pieces\31\k_b.png" />
+    <None Remove="pieces\31\k_w.png" />
+    <None Remove="pieces\31\n_b.png" />
+    <None Remove="pieces\31\n_w.png" />
+    <None Remove="pieces\31\p_b.png" />
+    <None Remove="pieces\31\p_w.png" />
+    <None Remove="pieces\31\q_b.png" />
+    <None Remove="pieces\31\q_w.png" />
+    <None Remove="pieces\31\r_b.png" />
+    <None Remove="pieces\31\r_w.png" />
+    <None Remove="pieces\32\b_b.png" />
+    <None Remove="pieces\32\b_w.png" />
+    <None Remove="pieces\32\k_b.png" />
+    <None Remove="pieces\32\k_w.png" />
+    <None Remove="pieces\32\n_b.png" />
+    <None Remove="pieces\32\n_w.png" />
+    <None Remove="pieces\32\p_b.png" />
+    <None Remove="pieces\32\p_w.png" />
+    <None Remove="pieces\32\q_b.png" />
+    <None Remove="pieces\32\q_w.png" />
+    <None Remove="pieces\32\r_b.png" />
+    <None Remove="pieces\32\r_w.png" />
+    <None Remove="pieces\3\b_b.png" />
+    <None Remove="pieces\3\b_w.png" />
+    <None Remove="pieces\3\k_b.png" />
+    <None Remove="pieces\3\k_w.png" />
+    <None Remove="pieces\3\n_b.png" />
+    <None Remove="pieces\3\n_w.png" />
+    <None Remove="pieces\3\p_b.png" />
+    <None Remove="pieces\3\p_w.png" />
+    <None Remove="pieces\3\q_b.png" />
+    <None Remove="pieces\3\q_w.png" />
+    <None Remove="pieces\3\r_b.png" />
+    <None Remove="pieces\3\r_w.png" />
+    <None Remove="pieces\4\b_b.png" />
+    <None Remove="pieces\4\b_w.png" />
+    <None Remove="pieces\4\k_b.png" />
+    <None Remove="pieces\4\k_w.png" />
+    <None Remove="pieces\4\n_b.png" />
+    <None Remove="pieces\4\n_w.png" />
+    <None Remove="pieces\4\p_b.png" />
+    <None Remove="pieces\4\p_w.png" />
+    <None Remove="pieces\4\q_b.png" />
+    <None Remove="pieces\4\q_w.png" />
+    <None Remove="pieces\4\r_b.png" />
+    <None Remove="pieces\4\r_w.png" />
+    <None Remove="pieces\5\b_b.png" />
+    <None Remove="pieces\5\b_w.png" />
+    <None Remove="pieces\5\k_b.png" />
+    <None Remove="pieces\5\k_w.png" />
+    <None Remove="pieces\5\n_b.png" />
+    <None Remove="pieces\5\n_w.png" />
+    <None Remove="pieces\5\p_b.png" />
+    <None Remove="pieces\5\p_w.png" />
+    <None Remove="pieces\5\q_b.png" />
+    <None Remove="pieces\5\q_w.png" />
+    <None Remove="pieces\5\r_b.png" />
+    <None Remove="pieces\5\r_w.png" />
+    <None Remove="pieces\6\b_b.png" />
+    <None Remove="pieces\6\b_w.png" />
+    <None Remove="pieces\6\k_b.png" />
+    <None Remove="pieces\6\k_w.png" />
+    <None Remove="pieces\6\n_b.png" />
+    <None Remove="pieces\6\n_w.png" />
+    <None Remove="pieces\6\p_b.png" />
+    <None Remove="pieces\6\p_w.png" />
+    <None Remove="pieces\6\q_b.png" />
+    <None Remove="pieces\6\q_w.png" />
+    <None Remove="pieces\6\r_b.png" />
+    <None Remove="pieces\6\r_w.png" />
+    <None Remove="pieces\7\b_b.png" />
+    <None Remove="pieces\7\b_w.png" />
+    <None Remove="pieces\7\k_b.png" />
+    <None Remove="pieces\7\k_w.png" />
+    <None Remove="pieces\7\n_b.png" />
+    <None Remove="pieces\7\n_w.png" />
+    <None Remove="pieces\7\p_b.png" />
+    <None Remove="pieces\7\p_w.png" />
+    <None Remove="pieces\7\q_b.png" />
+    <None Remove="pieces\7\q_w.png" />
+    <None Remove="pieces\7\r_b.png" />
+    <None Remove="pieces\7\r_w.png" />
+    <None Remove="pieces\8\b_b.png" />
+    <None Remove="pieces\8\b_w.png" />
+    <None Remove="pieces\8\k_b.png" />
+    <None Remove="pieces\8\k_w.png" />
+    <None Remove="pieces\8\n_b.png" />
+    <None Remove="pieces\8\n_w.png" />
+    <None Remove="pieces\8\p_b.png" />
+    <None Remove="pieces\8\p_w.png" />
+    <None Remove="pieces\8\q_b.png" />
+    <None Remove="pieces\8\q_w.png" />
+    <None Remove="pieces\8\r_b.png" />
+    <None Remove="pieces\8\r_w.png" />
+    <None Remove="pieces\9\b_b.png" />
+    <None Remove="pieces\9\b_w.png" />
+    <None Remove="pieces\9\k_b.png" />
+    <None Remove="pieces\9\k_w.png" />
+    <None Remove="pieces\9\n_b.png" />
+    <None Remove="pieces\9\n_w.png" />
+    <None Remove="pieces\9\p_b.png" />
+    <None Remove="pieces\9\p_w.png" />
+    <None Remove="pieces\9\q_b.png" />
+    <None Remove="pieces\9\q_w.png" />
+    <None Remove="pieces\9\r_b.png" />
+    <None Remove="pieces\9\r_w.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="boards\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\26.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\28.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boards\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\10\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\11\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\12\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\13\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\14\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\15\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\16\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\17\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\18\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\19\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\1\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\20\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\21\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\22\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\23\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\24\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\25\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\26\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\27\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\28\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\29\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\2\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\30\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\31\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\32\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\3\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\4\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\5\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\6\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\7\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\8\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\b_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\b_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\k_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\k_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\n_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\n_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\p_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\p_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\q_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\q_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\r_b.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pieces\9\r_w.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.7.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0006" />
+  </ItemGroup>
+
+</Project>
